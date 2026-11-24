@@ -1,10 +1,10 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Search, SlidersHorizontal, Sparkles, BookMarked } from 'lucide-react';
-import { PHYSICS_TERMS, CATEGORIES } from './data/terms';
-import Navbar from './components/Navbar';
-import TermCard from './components/TermCard';
-import TermModal from './components/TermModal';
-import Flashcards from './components/Flashcards';
+import { PHYSICS_TERMS, CATEGORIES } from './terms.js';
+import Navbar from './Navbar.jsx';
+import TermCard from './TermCard.jsx';
+import TermModal from './TermModal.jsx';
+import Flashcards from './Flashcards.jsx';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dictionary');
